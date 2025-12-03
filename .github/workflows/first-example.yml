@@ -9,8 +9,8 @@ jobs:
         - name: Welcome message
           run: echo "Hola mundo"
 
-        - name: List files
-          run: ls
+        - name: Print directory
+          run: pwd
 
         - name: Read file
           run: cat README.md
